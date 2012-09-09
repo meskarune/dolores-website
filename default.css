@@ -1,0 +1,146 @@
+
+body {
+	margin: 0em;
+	padding: 0em;
+	/* background: #d3dcf0;*/
+	background-image:url('cloth.jpg');
+	background-attachment: fixed;
+	color: #665555;
+	font-family: 'DejaVu Sans', 'Liberation Sans', Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+
+.invisible {
+    display: none;
+}
+
+body > #sidebar {
+	position: fixed;
+}
+
+#content {
+	margin-left: 198px;
+	padding: 5em; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	line-height: 1;
+	overflow: hidden;
+}
+
+.article {
+	margin-bottom: 2em;
+	padding: 10px;
+	background-image:url('eggshell.jpg');
+    border-style: solid;
+   	border-width: 1px;
+ 	border-color: #e0d5cb;
+ 	-moz-box-shadow: 7px 7px 5px -2px #8890ac;
+ 	-webkit-box-shadow: 7px 5px 7px -2px #8890ac;
+	box-shadow: 7px 7px 5px -2px #8890ac;
+}
+
+/* Text Formating */
+
+.center {
+	text-align: center;
+}
+
+h1 { 
+    font-size: 4em; 
+    text-align: center;
+    margin-top: 0px;
+}
+h2 { 
+    font-size: 2em; 
+    margin-top: 5px; 
+}
+
+a:link { 
+	background: transparent none;
+	text-decoration: none;
+    color: yellow; 
+}
+a:visited { 
+	background: transparent none; 
+    text-decoration: none; 
+    color: aqua; 
+}
+a:active { 
+    background: transparent none; 
+    text-decoration: none; 
+    color: aqua; 
+}
+a:hover { 
+    background: transparent none; 
+    text-decoration: none; 
+    color: fuchsia; 
+}
+
+code, pre {
+	font-family: monospace;
+	font-size: medium;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #586e75; 
+    background-color: #fdf6e3;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #eee8d5;
+    -moz-box-shadow: inset 0 0 10px #bab4a2;
+    -webkit-box-shadow: inset 0 0 10px #bab4a2;
+    box-shadow: inset 0 0 10px #bab4a2;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.lnr {
+	color: #586e75;
+	background: #eee8d5;
+}
+
+.String {
+	color: #2aa198;
+}
+
+.Operator {
+	color: #d33682;
+}
+
+.Statement {
+	color: #268bd2;
+}
+
+/* Side Bar */
+
+#sidebar {
+	position: fixed;
+	top: 0;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+	/* background: #d3dcf0; */
+	background-image:url('cloth.jpg');
+	color: #9aaadf;
+	text-align: left;
+}
+
+#sidebar a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em;
+    background: #d3dcf0;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    background: #d3dcf0;
+    color: #9aaadf;
+}
+
+#sidebar a:hover {
+    background: #9aaadf;
+    text-decoration: none;
+    color: white;
+}
